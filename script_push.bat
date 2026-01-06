@@ -33,6 +33,6 @@ if %errorlevel%==0 (
 )
 
 :: Wait 30 minutes (natural behavior)
-timeout /t 10 /nobreak
+timeout /t 1000 /nobreak
 
 goto loop
